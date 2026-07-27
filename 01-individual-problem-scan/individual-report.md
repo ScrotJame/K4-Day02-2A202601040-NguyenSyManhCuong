@@ -13,7 +13,7 @@
 |Rank|	Problem|	Vì sao chọn|	Điều còn chưa chắc|
 |---|---|---|---|
 |1	|Tư vấn viên bất động sản khó cá nhân hóa nội dung tư vấn theo nhu cầu và khả năng tài chính của từng khách hàng |	Actor rõ, workflow rõ, AI tạo giá trị lớn (RAG + LLM + Agent), dễ so sánh No AI/Rule/Workflow/Agent |	Cần dữ liệu dự án, bảng giá, hồ sơ khách hàng để demo|
-|2	|Sinh viên không biết trạng thái xử lý hồ sơ/giấy tờ và khi nào có thể đến nhận.	Quy trình hành chính rõ ràng, pain point phổ biến, dễ đo thời gian và số lượt hỏi |	Cần giả lập dữ liệu trạng thái hồ sơ nếu trường chưa có API |
+|2	|Sinh viên không biết trạng thái xử lý hồ sơ/giấy tờ và khi nào có thể đến nhậnnhận|	Quy trình hành chính rõ ràng, pain point phổ biến, dễ đo thời gian và số lượt hỏi |	Cần giả lập dữ liệu trạng thái hồ sơ nếu trường chưa có API |
 |3	|Người học không duy trì được thói quen học từ vựng |	Đúng pain point, có thể làm AI Coach, dữ liệu dễ tạo |	Khó chứng minh hiệu quả trong thời gian ngắn; dễ bị đánh giá là chatbot thông thường nếu thiếu điểm khác biệt|
 
 ## Problem Card #1       
@@ -123,14 +123,14 @@ Quick gut
 ☑ Workflow  ☑ Agent
 
 **Draft Workflow**
-
+```text
 Sinh viên
 →Hỏi chatbot
 →AI tra trạng thái
 →Đã xong?
    ├── Có → Báo thời gian nhận
    └── Chưa → Báo trạng thái hiện tại
-
+```
 
 ## Problem Card #3  
 
