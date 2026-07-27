@@ -1,18 +1,20 @@
 | # | Lăng kính | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật |
+|---|---|---|---|---|
 |1| User Pain Points| Người học thiếu động lực, nhanh chán, khó duy trì thói quen, dẫn đến việc học bị gián đoạn | User | Mất động lực sau vài ngày hoặc vài tuần |
-|2| User Pain Points |Sinh viên khi cần làm giấy tờ để nộp, bị phân tán thông tin. Không biết khi nào giấy hoành thành để lên nhận | User | Không biết khi nào đi lấy, đến thì hết giờ làm để nhận giấy
-|3|User Pain Points|Tư vấn viên không thể theo dõi và chăm sóc hiệu quả số lượng lớn khách hàng tiềm năng|Tư vấn viên|Lead bị bỏ quên; quên gọi lại; khách chuyển sang đối thủ; tỷ lệ chuyển đổi thấp
-|4|Time-consuming|Mất nhiều thời gian tổng hợp thông tin khách hàng từ nhiều kênh|Tư vấn viên|Phải mở nhiều ứng dụng để tìm lịch sử trao đổi; nhập liệu lặp lại; mất 10–20 phút để chuẩn bị trước mỗi cuộc gọi.
-|5|AI Advantage|Khó xác định khách hàng nào có khả năng mua cao để ưu tiên chăm sóc|Tư vấn viên, Trưởng nhóm|Gọi khách theo cảm tính; nhiều khách tiềm năng bị bỏ lỡ; tỷ lệ chốt không ổn định.
+|2| User Pain Points |Sinh viên khi cần làm giấy tờ để nộp, bị phân tán thông tin. Không biết khi nào giấy hoành thành để lên nhận | User | Không biết khi nào đi lấy, đến thì hết giờ làm để nhận giấy|
+|3|User Pain Points|Tư vấn viên không thể theo dõi và chăm sóc hiệu quả số lượng lớn khách hàng tiềm năng|Tư vấn viên|Lead bị bỏ quên; quên gọi lại; khách chuyển sang đối thủ; tỷ lệ chuyển đổi thấp|
+|4|Time-consuming|Mất nhiều thời gian tổng hợp thông tin khách hàng từ nhiều kênh|Tư vấn viên|Phải mở nhiều ứng dụng để tìm lịch sử trao đổi; nhập liệu lặp lại; mất 10–20 phút để chuẩn bị trước mỗi cuộc gọi|
+|5|AI Advantage|Khó xác định khách hàng nào có khả năng mua cao để ưu tiên chăm sóc|Tư vấn viên, Trưởng nhóm|Gọi khách theo cảm tính; nhiều khách tiềm năng bị bỏ lỡ; tỷ lệ chốt không ổn định|
 |6|Time-consuming|Việc viết báo cáo và cập nhật CRM sau mỗi cuộc gọi chiếm nhiều thời gian|Tư vấn viên|Cuối ngày mới nhập dữ liệu; ghi chú thiếu; CRM không phản ánh đúng trạng thái khách hàng|
-|7|AI Advantage|Khó cá nhân hóa nội dung tư vấn theo nhu cầu và khả năng tài chính của từng khách|Tư vấn viên, Khách hàng|Gửi cùng một nội dung cho mọi khách; đề xuất dự án không phù hợp; khách ít tương tác. |
-|8|Time-consuming|Mất nhiều thời gian tìm kiếm tài liệu dự án|Tư vấn viên|Hỏi đồng nghiệp liên tục; gửi nhầm phiên bản tài liệu; mất thời gian tìm file trong nhiều nhóm chat. |
+|7|AI Advantage|Khó cá nhân hóa nội dung tư vấn theo nhu cầu và khả năng tài chính của từng khách|Tư vấn viên, Khách hàng|Gửi cùng một nội dung cho mọi khách; đề xuất dự án không phù hợp; khách ít tương tác |
+|8|Time-consuming|Mất nhiều thời gian tìm kiếm tài liệu dự án|Tư vấn viên|Hỏi đồng nghiệp liên tục; gửi nhầm phiên bản tài liệu; mất thời gian tìm file trong nhiều nhóm chat |
 
 ## Top 3
-|Rank|	Problem|	Vì sao chọn|	Điều còn chưa chắc
-|1	|Tư vấn viên bất động sản khó cá nhân hóa nội dung tư vấn theo nhu cầu và khả năng tài chính của từng khách hàng |	Actor rõ, workflow rõ, AI tạo giá trị lớn (RAG + LLM + Agent), dễ so sánh No AI/Rule/Workflow/Agent |	Cần dữ liệu dự án, bảng giá, hồ sơ khách hàng để demo.
+|Rank|	Problem|	Vì sao chọn|	Điều còn chưa chắc|
+|---|---|---|---|
+|1	|Tư vấn viên bất động sản khó cá nhân hóa nội dung tư vấn theo nhu cầu và khả năng tài chính của từng khách hàng |	Actor rõ, workflow rõ, AI tạo giá trị lớn (RAG + LLM + Agent), dễ so sánh No AI/Rule/Workflow/Agent |	Cần dữ liệu dự án, bảng giá, hồ sơ khách hàng để demo|
 |2	|Sinh viên không biết trạng thái xử lý hồ sơ/giấy tờ và khi nào có thể đến nhận.	Quy trình hành chính rõ ràng, pain point phổ biến, dễ đo thời gian và số lượt hỏi |	Cần giả lập dữ liệu trạng thái hồ sơ nếu trường chưa có API |
-|3	|Người học không duy trì được thói quen học từ vựng |	Đúng pain point, có thể làm AI Coach, dữ liệu dễ tạo |	Khó chứng minh hiệu quả trong thời gian ngắn; dễ bị đánh giá là chatbot thông thường nếu thiếu điểm khác biệt.
+|3	|Người học không duy trì được thói quen học từ vựng |	Đúng pain point, có thể làm AI Coach, dữ liệu dễ tạo |	Khó chứng minh hiệu quả trong thời gian ngắn; dễ bị đánh giá là chatbot thông thường nếu thiếu điểm khác biệt|
 
 ## Problem Card #1       
 
